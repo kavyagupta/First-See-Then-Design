@@ -1,6 +1,16 @@
-# Running Experiments
+# First-See-Then-Design: A Multi-Stakeholder View for Optimal Performance-Fairness Trade-OffsThis repository contains the code implementing the MOO approach for Multi-stakeholder setup introduced in the paper : First-See-Then-Design: A Multi-Stakeholder View for Optimal Performance-Fairness Trade-Offs accepted at the ACM FAccT 2026 conference. Check out the full paper at this link.
 
-This repository implements the code for the paper: "First-See-then-Design: A Multi-stakeholder view for optimal Performance-Fairness tradeoffs".
+![Multi-stakeholder view of decision-making policies.](./MOO_new_page-0001.jpg)
+
+
+## Overview 
+
+## Setup 
+
+
+
+
+# Running Experiments
 
 ## 1. Dataset Preparation
 
@@ -54,3 +64,7 @@ Results are stored in the directory specified by `--outdir`.
 **Metrics**
 - `Disparity`: Egalitarian utility  
 - `min_group_u`: Rawlsian utility
+
+
+## Citation
+
