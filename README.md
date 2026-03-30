@@ -4,10 +4,10 @@ This repository contains the code implementing the MOO approach for Multi-stakeh
 
 ![Multi-stakeholder view of decision-making policies.](./MOO_new_page-0001.jpg)
 
-#Overview 
+## Overview 
 
-#Setup 
+## Setup 
 
-#Citation
+## Citation
 
 
