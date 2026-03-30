@@ -1,0 +1,31 @@
+seed: 42
+justice: egalitarian       # or rawlsian
+stochastic: true
+thresholds: 100
+
+# large sigma ≈ deterministic
+sigmas: [1000000, 30, 50, 10, 5, 100, 500, 1, 2, 0.5]
+
+
+
+# Female
+customer_costs:
+  C_TP: 15
+  C_TN: 0
+  C_FP: -5
+  C_FN: -1
+
+# Male
+customer_costs_1:
+  C_TP: 10
+  C_TN: 0
+  C_FP: -5
+  C_FN: -1
+
+
+
+## German Credit Owner
+owner_costs:
+  kind: german_credit
+  L_col: L
+  duration_col: A

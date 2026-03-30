@@ -1,0 +1,20 @@
+seed: 42
+justice: egalitarian       # or rawlsian
+stochastic: true
+thresholds: 100
+
+# large sigma ≈ deterministic
+sigmas: [1000000, 30, 50, 10, 5, 100, 500, 1, 2, 0.5]
+
+customer_costs:
+  C_TP: 100
+  C_TN: 0
+  C_FP: -50
+  C_FN: -10
+
+
+## Home Credit Owner
+owner_costs:
+  kind: homecredit
+  L_col: L
+  A_col: A

@@ -1,0 +1,20 @@
+seed: 42
+justice: egalitarian       # or rawlsian
+stochastic: true
+thresholds: 100
+
+# large sigma ≈ deterministic
+sigmas: [1000000, 30, 50, 10, 5, 100, 500, 1, 2, 0.5]
+
+#symmetic owner constant
+owner_costs:
+  C_TP: 10
+  C_TN: 0
+  C_FP: -10
+  C_FN: 0
+
+customer_costs:
+  C_TP: 10
+  C_TN: 0
+  C_FP: -5
+  C_FN: -1
