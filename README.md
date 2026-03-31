@@ -22,6 +22,8 @@ To run experiments on real-world datasets:
    - Train the model that estimates outcome probabilities.
    - Generate the train/test splits used in the paper.
 
+> **Note:** Some real-world datasets cannot be publicly shared due to licensing or privacy restrictions. The data splits used in the paper are available upon request — alternatively, you can create them using the provided notebooks.
+
 ### Synthetic datasets
 Synthetic datasets are already prepared and available in the `data/` directory. No additional preprocessing is required.
 
