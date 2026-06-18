@@ -6,11 +6,11 @@ thresholds: 100
 # large sigma ≈ deterministic
 sigmas: [1000000, 30, 50, 10, 5, 100, 500, 1, 2, 0.5]
 
-#asymmetic owner constants, |TP| >> |FP|
+#symmetic owner constant, aligned
 owner_costs:
-  C_TP: 20
+  C_TP: 10
   C_TN: 0
-  C_FP: -1
+  C_FP: -10
   C_FN: 0
 
 customer_costs:
